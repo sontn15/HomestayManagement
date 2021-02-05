@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <TextView
+        android:id="@+id/tv_subtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/edt_uername_login"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/_30sdp"
+        android:text="Quản lý Homestay"
+        android:textSize="@dimen/_15ssp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edt_uername_login"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_38sdp"
+        android:layout_above="@id/edt_password_login"
+        android:layout_marginLeft="@dimen/_25sdp"
+        android:layout_marginRight="@dimen/_25sdp"
+        android:background="@drawable/et_custom"
+        android:hint="Tài khoản"
+        android:inputType="textEmailAddress"
+        android:padding="@dimen/_8sdp"
+        android:textSize="@dimen/_15ssp">
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/edt_password_login"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_38sdp"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="@dimen/_25sdp"
+        android:layout_marginTop="@dimen/_6sdp"
+        android:layout_marginEnd="@dimen/_25sdp"
+        android:background="@drawable/et_custom"
+        android:hint="Mật khẩu"
+        android:inputType="textPassword"
+        android:padding="@dimen/_8sdp"
+        android:textSize="@dimen/_15ssp" />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_36sdp"
+        android:layout_below="@id/edt_password_login"
+        android:layout_marginStart="@dimen/_25sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_marginEnd="@dimen/_25sdp"
+        android:background="@drawable/shape_bg_bovien_color_app"
+        android:text="Đăng nhập"
+        android:textColor="@color/white" />
+</RelativeLayout>

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Homestay</string>
+    <string name="login">Đăng nhập</string>
+    <string name="vui_long_nhap_day_du_thong_tin">Vui lòng nhập đầy đủ thông tin</string>
+    <string name="vui_long_dien_pass">Vui lòng nhập mật khẩu</string>
+    <string name="sai_thong_tin_dang_nhap">Sai thông tin đăng nhập, vui lòng thử lại</string>
+    <string name="dang_nhap_thai_bai">Đăng nhập thất bại, vui lòng thử lại</string>
+    <string name="doi_mat_khau_thai_bai">Đổi mật khẩu thất bại, vui lòng thử lại</string>
+    <string name="vui_long_doi">Vui lòng đợi</string>
+    <string name="taikhoan_matkhau_khong_dung">Tài khoản, mật khẩu không chính xác</string>
+    <string name="co_loi_xay_ra">Có lỗi xảy ra, vui lòng liên hệ admin</string>
+    <string name="password">Mật khẩu</string>
+    <string name="e_mail">Tên tài khoản</string>
+    <string name="tag">Phần mềm quản lý bán hàng</string>
+    <string name="not_have_items_in_bill">Không có sản phẩm nào của đơn hàng</string>
+    <string name="check_connection_network">Vui lòng kiểm tra lại kết nối mạng</string>
+</resources>
